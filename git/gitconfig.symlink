@@ -26,8 +26,6 @@
         whitespace = nowarn
 [mergetool]
         keepBackup = false
-[credential]
-        helper = osxkeychain
 [difftool]
         prompt = false
 [help]
