@@ -7,12 +7,12 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
-	    co = checkout
-	    ci = commit
-	    st = status
-	    br = branch
-	    do = push origin --delete
-	    dl = branch -D
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        do = push origin --delete
+        dl = branch -D
 
 [color]
         diff = auto
