@@ -9,6 +9,13 @@
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
         count   = !git shortlog -sn
+	    co = checkout
+	    ci = commit
+	    st = status
+	    br = branch
+	    do = push origin --delete
+	    dl = branch -D
+
 [color]
         diff = auto
         status = auto
@@ -16,11 +23,13 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = code
 [apply]
         whitespace = nowarn
 [mergetool]
         keepBackup = false
+[credential]
+        helper = osxkeychain
 [difftool]
         prompt = false
 [help]
