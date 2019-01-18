@@ -1,8 +1,9 @@
 #!/bin/sh
 #
-# oh-my-zsh
+# Antigen, the zsh package manager
 #
-# This installs oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
+echo '/usr/local/bin/zsh' | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/zsh
 
-
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# get newest antigen version
+# curl -L git.io/antigen > antigen.zsh

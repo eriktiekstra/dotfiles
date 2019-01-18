@@ -54,6 +54,7 @@ Run this:
 git clone https://github.com/holman/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
+chsh -s /usr/local/bin/zsh
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
@@ -71,7 +72,7 @@ this script in `bin/`.
 
 I want this to work for everyone; that means when you clone it down it should
 work for you even though you may not have `rbenv` installed, for example. That
-said, I do use this as *my* dotfiles, so there's a good chance I may break
+said, I do use this as _my_ dotfiles, so there's a good chance I may break
 something if I forget to make a check for a dependency.
 
 If you're brand-new to the project and run into any blockers, please
@@ -86,3 +87,31 @@ weight of my changes and tweaks inspired me to finally roll my own. But Ryan's
 dotfiles were an easy way to get into bash customization, and then to jump ship
 to zsh a bit later. A decent amount of the code in these dotfiles stem or are
 inspired from Ryan's original project.
+
+## Post bootstrap
+
+1. Setup and login to Dropbox
+2. Run cask setups in `open /usr/local/Caskroom`
+
+- backblaze
+- little snitch
+
+3. Load Config files for applications
+
+- Little snitch
+- VSCode
+- IStat menu
+- iTerm
+- Better touch tool
+
+4. Register licenses for applications
+
+- 1Password
+- Sketch
+- Airflow
+- Better Touch Tool
+- Dash
+- Hazel
+- IStat Menu
+- Little Snitch
+- Sketch

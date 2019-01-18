@@ -1,8 +1,9 @@
 # Local/private config goes in the include
 [include]
         path = ~/.gitconfig.local
+[hub]
+        protocol = https
 [alias]
-        co = checkout
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
@@ -21,7 +22,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = code
+        editor = vscode
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -36,3 +37,14 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff  "
+[user]
+	name = Erik Tiekstra
+	email = erik@tiekstra.se

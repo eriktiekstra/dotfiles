@@ -3,7 +3,6 @@ alias reload!='. ~/.zshrc'
 alias cl='clear' # Good 'ol Clear Screen command
 
 alias home='cd ~/'
-alias ls='ls -la'
 alias sites='cd ~/Sites/'
 
 #alias vhosts='sudo nano /etc/apache2/extra/httpd-vhosts.conf'

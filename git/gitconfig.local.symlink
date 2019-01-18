@@ -1,6 +1,5 @@
 [user]
         name = Erik Tiekstra
         email = erik.tiekstra@weahead.se
-
 [credential]
-        helper = GIT_CREDENTIAL_HELPER
+        helper = osxkeychain
