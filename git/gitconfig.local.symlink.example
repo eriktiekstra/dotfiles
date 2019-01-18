@@ -1,5 +1,5 @@
 [user]
-        name = Erik Tiekstra
-        email = erik.tiekstra@weahead.se
+        name = AUTHORNAME
+        email = AUTHOREMAIL
 [credential]
         helper = GIT_CREDENTIAL_HELPER
