@@ -51,7 +51,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://gitlab.com/eriktiekstra/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 chsh -s /usr/local/bin/zsh
@@ -67,6 +67,10 @@ which sets up a few paths that'll be different on your particular machine.
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
+
+## reload config
+
+If new settings were added run `reload!` to reload the latest settings.
 
 ## bugs
 
@@ -102,16 +106,11 @@ inspired from Ryan's original project.
 - VSCode
 - IStat menu
 - iTerm
-- Better touch tool
 
 4. Register licenses for applications
 
-- 1Password
 - Sketch
-- Airflow
-- Better Touch Tool
 - Dash
-- Hazel
 - IStat Menu
 - Little Snitch
 - Sketch

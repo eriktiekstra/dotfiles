@@ -5,6 +5,7 @@
 
 echo "› disable gatekeeper"
 sudo spctl --master-disable
+
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
 
