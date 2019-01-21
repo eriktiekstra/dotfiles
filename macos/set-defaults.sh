@@ -13,6 +13,9 @@ defaults write NSGlobalDomain AppleInterfaceStyle Dark
 # Menubar: Show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
+# Menubar: Show bluetooth, airport, VPN, battery, clock menu
+defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/VPN.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu"
+
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
