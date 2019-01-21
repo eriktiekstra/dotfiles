@@ -5,6 +5,7 @@ alias cls='cl' # Good 'ol Clear Screen command
 
 alias home='cd ~/'
 alias sites='cd ~/Sites/'
+alias dotfiles='cd ~/.dotfiles'
 
 
 alias vhosts='sudo nano /etc/apache2/extra/httpd-vhosts.conf'

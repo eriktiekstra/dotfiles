@@ -1,4 +1,10 @@
-# holman does dotfiles
+# eriktiekstra does dotfiles
+
+## Based upon Zach Holman's dotfiles
+
+This repository and way of saving/installing personal dotfiles is based upon [Zach Holman's dotfiles](https://github.com/holman/dotfiles).
+
+## Introduction
 
 Your dotfiles are how you personalize your system. These are mine.
 
@@ -33,7 +39,7 @@ There's a few special files in the hierarchy.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and Docker and iTerm2 and stuff. Might want to edit this file before running any initial setup.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your
   environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is
@@ -54,7 +60,9 @@ Run this:
 git clone https://gitlab.com/eriktiekstra/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
-chsh -s /usr/local/bin/zsh
+
+# The following is probably not necessary as it is ran through antigen
+#chsh -s /usr/local/bin/zsh
 ```
 
 This will symlink the appropriate files in `.dotfiles` to your home directory.
@@ -94,23 +102,26 @@ inspired from Ryan's original project.
 
 ## Post bootstrap
 
-1. Setup and login to Dropbox
-2. Run cask setups in `open /usr/local/Caskroom`
+1. Run cask setups in `open /usr/local/Caskroom`
 
-- backblaze
-- little snitch
+- Backblaze
+- Little snitch
+
+2. Install other applications
+
+- PhpStorm - through JetBrains toolbox
 
 3. Load Config files for applications
 
-- Little snitch
-- VSCode
+- VSCode - through the Settings Sync extension
+- PhpStorm - should be installed by logging with my JetBrains account
+- iTerm2 - available inside the .dotfiles repository, should load automatically
 - IStat menu
-- iTerm
+- Little snitch
 
 4. Register licenses for applications
 
 - Sketch
-- Dash
 - IStat Menu
+- Dash
 - Little Snitch
-- Sketch

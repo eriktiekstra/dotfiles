@@ -1,2 +1,6 @@
 # Pipe my public key to my clipboard.
-alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+# Needs the name of the project
+pubkey() {
+    pbcopy < ~/.ssh/id_rsa-${1}.pub
+    echo '=> Public key copied to pasteboard.'
+}

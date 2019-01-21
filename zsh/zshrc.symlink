@@ -74,6 +74,9 @@ bindkey '^[[B' history-substring-search-down
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# NVM Symlink to current installation
+export NVM_SYMLINK_CURRENT=true
+nvm use default
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
