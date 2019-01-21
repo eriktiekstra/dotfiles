@@ -10,6 +10,9 @@
 # Set the menubar and dock to dark
 defaults write NSGlobalDomain AppleInterfaceStyle Dark
 
+# Menubar: Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -bool true
+
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -82,6 +85,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: show all files
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
