@@ -171,7 +171,7 @@
 		<dict/>
 	</dict>
 	<key>isPinned</key>
-	<true/>
+	<false/>
 	<key>placeholderDelimiter</key>
 	<string>__</string>
 	<key>profiles</key>
@@ -222,7 +222,7 @@
 	<key>shouldSyncView</key>
 	<true/>
 	<key>showInDock</key>
-	<true/>
+	<false/>
 	<key>versionedDHCheatRepo</key>
 	<dict>
 		<key>installed</key>

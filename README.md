@@ -119,6 +119,7 @@ inspired from Ryan's original project.
 - iTerm2 - available inside the .dotfiles repository, should load automatically
 - IStat menu
 - Little snitch
+- Tunnelblick - available through [PIA](https://www.privateinternetaccess.com/pages/openvpn-ios)
 
 4. Register licenses for applications
 

@@ -11,7 +11,7 @@ brew 'grc'
 brew 'libgit2'
 brew 'openssl'
 brew 'ncdu'
-# brew 'nvm' installed through lukechilds/zsh-nvm through antigen
+#brew 'nvm' - installed through lukechilds/zsh-nvm through antigen
 brew 'readline'
 brew 'postgresql'
 brew 'spaceman-diff'
@@ -21,7 +21,7 @@ brew 'youtube-dl'
 brew 'elixir'
 brew 'git-flow'
 brew 'watchman'
-#brew 'yarn' --without-node
+brew 'yarn', args: ['without-node']
 
 cask 'visual-studio-code'
 cask 'firefox'
@@ -41,4 +41,7 @@ cask 'spectacle'
 cask 'backblaze'
 cask 'toggl'
 cask 'zeplin'
+cask 'franz'
+cask 'keybase'
+cask 'tunnelblick'
 #cask 'little-snitch'
