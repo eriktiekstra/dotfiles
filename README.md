@@ -110,6 +110,7 @@ inspired from Ryan's original project.
 2. Install other applications
 
 - PhpStorm - through JetBrains toolbox
+- Amphetamine - through the App Store
 
 3. Load Config files for applications
 
