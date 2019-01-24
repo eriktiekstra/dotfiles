@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 tap 'caskroom/versions'
 tap 'puma/puma'
+tap 'weahead/tools'
 
 brew 'ack'
 brew 'zsh'
@@ -22,6 +23,7 @@ brew 'elixir'
 brew 'git-flow'
 brew 'watchman'
 brew 'yarn', args: ['without-node']
+brew 'wa'
 
 cask 'visual-studio-code'
 cask 'firefox'
