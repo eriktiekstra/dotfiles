@@ -1,3 +1,4 @@
 .DS_Store
 gitconfig.local.symlink
 ssh.symlink/id*
+ssh.symlink/known_hosts
