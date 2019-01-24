@@ -45,6 +45,3 @@
 	tool = code
 [difftool "code"]
 	cmd = "code --wait --diff  "
-[user]
-	name = Erik Tiekstra
-	email = erik@tiekstra.se
