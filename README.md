@@ -37,7 +37,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://gitlab.com/eriktiekstra/dotfiles.git ~/.dotfiles
+git clone https://github.com/eriktiekstra/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 
