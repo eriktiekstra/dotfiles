@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# Creates ssh key with provided email and type
+
+# # Colors
+Color_Off='\033[0m'       # Text Reset
+Green='\033[0;32m'        # Green
+Yellow='\033[0;33m'       # Yellow
+Cyan='\033[0;36m'         # Cyan
+
+EMAIL=$1
+TYPE=${2-ED25519}
+
+echo -e "${Cyan}Creating ssh key for ${EMAIL} ...${Color_Off}"
+
+if [ "$TYPE" = "rsa" ]
+then
+    ssh-keygen -o -t rsa -b 4096 -C "${EMAIL}"
+else
+    ssh-keygen -t ed25519 -C "${EMAIL}"
+fi
+
+echo -e "${Green}SSH key added${Color_Off}"

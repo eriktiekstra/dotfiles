@@ -13,8 +13,8 @@ defaults write NSGlobalDomain AppleInterfaceStyle Dark
 # Menubar: Show battery percentage
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
-# Menubar: Show bluetooth, airport, VPN, battery, clock menu
-defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/VPN.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu"
+# Menubar: Show bluetooth, airport, battery, clock menu
+defaults write com.apple.systemuiserver menuExtras -array "/System/Library/CoreServices/Menu Extras/Bluetooth.menu" "/System/Library/CoreServices/Menu Extras/AirPort.menu" "/System/Library/CoreServices/Menu Extras/Clock.menu" "/System/Library/CoreServices/Menu Extras/Battery.menu"
 
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write -g ApplePressAndHoldEnabled -bool false
@@ -81,6 +81,10 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
+# Trackpad: set speed to highest
+defaults write .GlobalPreferences com.apple.trackpad.scaling 3
 
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)

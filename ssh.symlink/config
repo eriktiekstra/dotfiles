@@ -1,0 +1,42 @@
+Host gitlab.com
+	PubkeyAuthentication yes
+	IdentityFile ~/.ssh/id_ed25519-gitlab
+	User eriktiekstra
+
+Host github.com
+	Hostname ssh.github.com
+	IdentityFile ~/.ssh/id_ed25519-github
+	User eriktiekstra
+
+Host bitbucket.org
+	IdentityFile ~/.ssh/id_ed25519-bitbucket
+	User eriktiekstra
+
+Host tiekstra
+    Hostname ssh.tiekstra.se
+    Port 22
+    User tiekstra.se
+    IdentityFile ~/.ssh/id_rsa-tiekstra
+
+Host tiekzut
+    Hostname ssh.tiekzut.com
+    Port 22
+    User tiekzut.com
+    IdentityFile ~/.ssh/id_rsa-tiekzut
+
+Host tantogarden
+    Hostname ssh.tantogarden.com
+    Port 22
+    User tantogarden.com
+    IdentityFile ~/.ssh/id_rsa-tantogarden
+
+Host *.drush.in
+	User erik.tiekstra@weahead.com
+	IdentityFile ~/.ssh/id_rsa-pantheon 
+
+Host *
+        ServerAliveInterval 30
+        ServerAliveCountMax 4
+        PreferredAuthentications publickey
+        #PreferredAuthentications password
+        IdentitiesOnly yes
