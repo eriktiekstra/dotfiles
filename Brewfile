@@ -26,6 +26,7 @@ brew 'yarn', args: ['without-node']
 cask 'visual-studio-code'
 cask 'firefox'
 cask 'google-chrome'
+cask 'brave-browser'
 cask 'slack'
 cask 'keyboardcleantool'
 cask 'istat-menus'
