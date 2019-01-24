@@ -1212,7 +1212,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/eriktiekstra/.dotfiles/iterm/</string>
+	<string>/Users/tieer/.dotfiles/iterm/</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
