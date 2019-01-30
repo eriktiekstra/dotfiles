@@ -1,8 +1,9 @@
 antigen use oh-my-zsh
 antigen bundle git
-antigen bundle git-flow
+#antigen bundle git-flow
+antigen bundle git-flow-avh #git-flow-avh needs to be installed seperately through Homebrew
 antigen bundle zsh-users/zsh-history-substring-search
-# antigen bundle command-not-found
+#antigen bundle command-not-found
 antigen bundle lukechilds/zsh-nvm
 antigen theme kolo
 
