@@ -19,7 +19,6 @@ brew 'unrar'
 brew 'wget'
 brew 'youtube-dl'
 brew 'elixir'
-brew 'git-flow'
 brew 'watchman'
 brew 'yarn', args: ['without-node']
 brew 'git-flow-avh'
