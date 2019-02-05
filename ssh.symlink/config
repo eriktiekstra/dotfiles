@@ -1,3 +1,8 @@
+Host asus
+	Hostname 192.168.1.1
+	User admin
+	IdentityFile ~/.ssh/id_rsa-asus
+	
 Host gitlab.com
 	PubkeyAuthentication yes
 	IdentityFile ~/.ssh/id_ed25519-gitlab
@@ -13,22 +18,22 @@ Host bitbucket.org
 	User eriktiekstra
 
 Host tiekstra
-    Hostname ssh.tiekstra.se
-    Port 22
-    User tiekstra.se
-    IdentityFile ~/.ssh/id_rsa-tiekstra
+	Hostname ssh.tiekstra.se
+	Port 22
+	User tiekstra.se
+	IdentityFile ~/.ssh/id_rsa-tiekstra
 
 Host tiekzut
-    Hostname ssh.tiekzut.com
-    Port 22
-    User tiekzut.com
-    IdentityFile ~/.ssh/id_rsa-tiekzut
+	Hostname ssh.tiekzut.com
+	Port 22
+	User tiekzut.com
+	IdentityFile ~/.ssh/id_rsa-tiekzut
 
 Host tantogarden
-    Hostname ssh.tantogarden.com
-    Port 22
-    User tantogarden.com
-    IdentityFile ~/.ssh/id_rsa-tantogarden
+	Hostname ssh.tantogarden.com
+	Port 22
+	User tantogarden.com
+	IdentityFile ~/.ssh/id_rsa-tantogarden
 
 Host *.drush.in
 	User erik.tiekstra@weahead.com
