@@ -1,7 +1,7 @@
 antigen use oh-my-zsh
 
 antigen bundle git
-antigen bundle git-flow-avh #git-flow-avh needs to be installed seperately through Brewfile
+antigen bundle git-flow-avh #git-flow-avh needs to be installed seperately inside Brewfile
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle lukechilds/zsh-nvm
 

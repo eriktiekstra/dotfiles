@@ -65,14 +65,25 @@ If new settings were added run `reload!` to reload the latest settings.
 
 - PhpStorm - through JetBrains toolbox
 - Amphetamine - through the App Store
+- LastPass - through the App Store
+- Node - `nvm install [version]`
 
 3. Load Config files for applications
 
+- SSH
+  - create SSH keys by running `create-ssh [email address] [rsa or empty for ed25519]`
+  - copy public SSH key by running `copy-ssh [file name without .pub]`
 - VSCode - through the Settings Sync extension
 - PhpStorm - should be installed by logging with my JetBrains account
 - iTerm2 - available inside the .dotfiles repository, should load automatically
 - IStat menu
-- Tunnelblick - available through [PIA](https://www.privateinternetaccess.com/pages/openvpn-ios)
+- Tunnelblick - available through [PIA](https://www.privateinternetaccess.com/pages/client-support/osx-openvpn-tunnelblick)
+  - [Download .ovpn files](https://www.privateinternetaccess.com/openvpn/openvpn.zip)
+  - Unzip the folder
+  - Remove the files not needed
+  - Rename the folder to have `tblk` as extension
+  - Dubbelclick the file to open the settings inside Tunnelblick
+- WA Developer tools - `wa setup dev`
 
 4. Register licenses for applications
 

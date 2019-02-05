@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# Copies public ssh key with provided filename
+
+# # Colors
+Color_Off='\033[0m'       # Text Reset
+Green='\033[0;32m'        # Green
+
+FILE_NAME=$1
+
+pbcopy < ~/.ssh/${FILE_NAME}.pub
+
+echo -e "${Green}Public key for ${FILE} copied to clipboard...${Color_Off}"
