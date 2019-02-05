@@ -1,3 +1,8 @@
+Host asus
+    Hostname 192.168.1.1
+    User admin
+	IdentityFile ~/.ssh/id_rsa-asus
+
 Host gitlab.com
 	PubkeyAuthentication yes
 	IdentityFile ~/.ssh/id_ed25519-gitlab
@@ -7,6 +12,14 @@ Host github.com
 	Hostname ssh.github.com
 	IdentityFile ~/.ssh/id_ed25519-github
 	User eriktiekstra
+
+Host bitbucket.ams.se
+	Hostname bitbucket.ams.se
+	IdentityFile ~/.ssh/id_rsa-af
+
+Host git.ws.ams.se
+	Hostname git.ws.ams.se
+	IdentityFile ~/.ssh/id_rsa-af-ws
 
 Host bitbucket.org
 	IdentityFile ~/.ssh/id_ed25519-bitbucket
