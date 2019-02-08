@@ -3,6 +3,12 @@ Host asus
     User admin
 	IdentityFile ~/.ssh/id_rsa-asus
 
+Host asus-remote
+	Hostname tiekzut.asuscomm.com
+	Port 22
+	User admin
+	IdentityFile ~/.ssh/id_rsa-asus
+
 Host gitlab.com
 	PubkeyAuthentication yes
 	IdentityFile ~/.ssh/id_ed25519-gitlab
