@@ -60,6 +60,7 @@ If new settings were added run `reload!` to reload the latest settings.
 1. Run cask setups in `open /usr/local/Caskroom`
 
 - Backblaze
+- Adobe Creative Cloud
 
 2. Install other applications
 
