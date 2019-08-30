@@ -7,13 +7,19 @@
         promote = !$ZSH/bin/git-promote
         wtf     = !$ZSH/bin/git-wtf
         rank-contributors = !$ZSH/bin/git-rank-contributors
+        track = !$ZSH/bin/git-track
         count   = !git shortlog -sn
+        nuke = !$ZSH/bin/git-nuke
+        dl = !$ZSH/bin/git-delete-local-merged
         co = checkout
         ci = commit
+        cim = commit -m
+        amend = git commit --amend -C HEAD # Use the last commit message and amend your stuffs
         st = status
         br = branch
         do = push origin --delete
-        dl = branch -D
+        po = push -u origin HEAD
+        undo = reset --soft HEAD^ # Undo your last commit, but don't throw away your changes
 
 [color]
         diff = auto
