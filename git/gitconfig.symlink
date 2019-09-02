@@ -14,7 +14,7 @@
         co = checkout
         ci = commit
         cim = commit -m
-        amend = git commit --amend -C HEAD # Use the last commit message and amend your stuffs
+        amend = commit --amend -C HEAD # Use the last commit message and amend your stuffs
         st = status
         br = branch
         do = push origin --delete
