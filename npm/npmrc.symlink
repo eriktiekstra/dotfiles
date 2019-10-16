@@ -1,4 +1,4 @@
 always-auth=true
-_auth=bnBtLWRlcGxveWVyOjJlVDdUUTlZTGh2TFJNYlg=
+_auth="bnBtLWRlcGxveWVyOjJlVDdUUTlZTGh2TFJNYlg="
 email=per.flitig@arbetsformedlingen.se
-#registry=http://nexus.ams.se:8081/nexus/content/repositories/npm-releases
+registry=http://nexus.ams.se:8081/nexus/content/repositories/npm-releases
