@@ -24,13 +24,13 @@ A lot of stuff. Seriously, a lot of stuff. Check them out in the file browser ab
 
 There's a few special files in the hierarchy.
 
-- **bin/**: Anything in `bin/` will get added to your `$PATH` and be made available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
-- **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your environment.
-- **topic/path.zsh**: Any file named `path.zsh` is loaded first and is expected to setup `$PATH` or similar.
-- **topic/completion.zsh**: Any file named `completion.zsh` is loaded last and is expected to setup autocomplete.
-- **topic/install.sh**: Any file named `install.sh` is executed when you run `script/install`. To avoid being loaded automatically, its extension is `.sh`, not `.zsh`.
-- **topic/\*.symlink**: Any file ending in `*.symlink` gets symlinked into your `$HOME`. This is so you can keep all of those versioned in your dotfiles but still keep those autoloaded files in your home directory. These get symlinked in when you run `script/bootstrap`.
+-   **bin/**: Anything in `bin/` will get added to your `$PATH` and be made available everywhere.
+-   **Brewfile**: This is a list of applications for [Homebrew Cask](https://caskroom.github.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+-   **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your environment.
+-   **topic/path.zsh**: Any file named `path.zsh` is loaded first and is expected to setup `$PATH` or similar.
+-   **topic/completion.zsh**: Any file named `completion.zsh` is loaded last and is expected to setup autocomplete.
+-   **topic/install.sh**: Any file named `install.sh` is executed when you run `script/install`. To avoid being loaded automatically, its extension is `.sh`, not `.zsh`.
+-   **topic/\*.symlink**: Any file ending in `*.symlink` gets symlinked into your `$HOME`. This is so you can keep all of those versioned in your dotfiles but still keep those autoloaded files in your home directory. These get symlinked in when you run `script/bootstrap`.
 
 ## install
 
@@ -59,35 +59,28 @@ If new settings were added run `reload!` to reload the latest settings.
 
 1. Run cask setups in `open /usr/local/Caskroom`
 
-- Backblaze
-- Adobe Creative Cloud
+-   Backblaze
+-   Adobe Creative Cloud
 
 2. Install other applications
 
-- PhpStorm - through JetBrains toolbox
-- Amphetamine - through the App Store
-- LastPass - through the App Store
-- Node - `nvm install [version]`
+-   PhpStorm - through JetBrains toolbox
+-   Node - `nvm install [version]`
 
 3. Load Config files for applications
 
-- SSH
-  - create SSH keys by running `create-ssh [email address] [rsa or empty for ed25519]`
-  - copy public SSH key by running `copy-ssh [file name without .pub]`
-- VSCode - through the Settings Sync extension
-- PhpStorm - should be installed by logging with my JetBrains account
-- iTerm2 - available inside the .dotfiles repository, should load automatically
-- IStat menu
-- Tunnelblick - available through [PIA](https://www.privateinternetaccess.com/pages/client-support/osx-openvpn-tunnelblick)
-  - [Download .ovpn files](https://www.privateinternetaccess.com/openvpn/openvpn.zip)
-  - Unzip the folder
-  - Remove the files not needed
-  - Rename the folder to have `tblk` as extension
-  - Dubbelclick the file to open the settings inside Tunnelblick
-- WA Developer tools - `wa setup dev`
+-   SSH
+    -   create SSH keys by running `create-ssh [email address] [rsa or empty for ed25519]`
+    -   copy public SSH key by running `copy-ssh [file name without .pub]`
+-   VSCode - through the Settings Sync extension
+-   PhpStorm - should be installed by logging with my JetBrains account
+-   iTerm2 - available inside the .dotfiles repository, should load automatically
+-   IStat menu
+-   Tunnelblick VPN
+-   WA Developer tools - `wa setup dev`
 
 4. Register licenses for applications
 
-- Sketch
-- IStat Menu
-- Dash
+-   Sketch
+-   IStat Menu
+-   Dash
