@@ -1,11 +1,13 @@
 Host asus
 	Hostname 192.168.1.1
 	User admin
+	Port 1234
 	IdentityFile ~/.ssh/id_rsa-asus
 
  Host asus-remote
 	Hostname tiekzut.asuscomm.com
 	User admin
+	Port 1234
 	IdentityFile ~/.ssh/id_rsa-asus
 	
 Host gitlab.com
@@ -42,7 +44,18 @@ Host tantogarden
 
 Host *.drush.in
 	User erik.tiekstra@weahead.com
-	IdentityFile ~/.ssh/id_rsa-pantheon 
+	IdentityFile ~/.ssh/id_rsa-pantheon
+
+Host EMAB-test
+	Hostname c1872.cloudnet.cloud
+	User root
+	IdentityFile ~/.ssh/id_rsa-emab
+
+Host EMAB
+	Hostname c1239.cloudnet.se
+	User root
+	IdentityFile ~/.ssh/id_rsa-emab
+
 
 Host *
         ServerAliveInterval 30
