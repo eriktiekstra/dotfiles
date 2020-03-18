@@ -55,3 +55,4 @@ cask 'color-oracle'
 cask 'lastpass'
 cask 'caffeine'
 cask 'postman'
+cask 'horndis' #Android USB tethering
