@@ -36,6 +36,12 @@ Host tiekzut
 	User tiekzut.com
 	IdentityFile ~/.ssh/id_rsa-tiekzut
 
+Host inleed
+	Hostname ns12.inleed.net
+	Port 2020
+	User tiekstra
+	IdentityFile ~/.ssh/id_ed25519-inleed
+
 Host tantogarden
 	Hostname ssh.tantogarden.com
 	Port 22
