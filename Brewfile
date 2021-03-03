@@ -14,6 +14,7 @@ brew 'ncdu'
 # brew 'nvm' - installed through lukechilds/zsh-nvm through antigen
 brew 'readline'
 brew 'postgresql'
+brew 'mysql'
 brew 'spaceman-diff'
 brew 'wget'
 brew 'youtube-dl'
