@@ -5,6 +5,7 @@ antigen bundle git-flow-avh #git-flow-avh needs to be installed seperately insid
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle lukechilds/zsh-nvm
 
-antigen theme kolo
+# antigen theme kolo
+antigen theme romkatv/powerlevel10k
 
 antigen apply

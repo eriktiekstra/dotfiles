@@ -6,8 +6,8 @@
 echo "› disable gatekeeper"
 sudo spctl --master-disable
 
-echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
+# echo "› sudo softwareupdate -i -a"
+# sudo softwareupdate -i -a
 
 # install operator font
 find `pwd` \( -name "*.otf" \) | while read font; do cp "${font}" ~/Library/Fonts/; done

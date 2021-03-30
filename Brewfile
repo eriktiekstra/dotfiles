@@ -1,6 +1,8 @@
 cask_args appdir: '/Applications'
 
+
 tap 'homebrew/bundle'
+tap 'homebrew/cask-fonts'
 tap 'puma/puma'
 # tap 'weahead/tools'
 
