@@ -59,4 +59,6 @@ cask 'postman'
 cask 'authy'
 cask 'mullvadvpn'
 cask 'sequel-pro'
+cask 'megasync'
+cask 'bitwarden'
 # cask 'horndis' #Android USB tethering

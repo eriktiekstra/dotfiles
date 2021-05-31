@@ -827,12 +827,14 @@
 					<key>Text</key>
 					<string>[1;5B</string>
 				</dict>
-				<key>0xf701-0x260000</key>
+				<key>0xf701-0x260000-0x7d</key>
 				<dict>
 					<key>Action</key>
-					<integer>10</integer>
+					<integer>28</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
-					<string>[1;6B</string>
+					<string>B2CD9319-8BFA-4F92-AAF0-254CF364C2B9</string>
 				</dict>
 				<key>0xf701-0x280000</key>
 				<dict>
@@ -883,12 +885,14 @@
 					<key>Text</key>
 					<string>[1;5C</string>
 				</dict>
-				<key>0xf703-0x260000</key>
+				<key>0xf703-0x260000-0x7c</key>
 				<dict>
 					<key>Action</key>
-					<integer>10</integer>
+					<integer>29</integer>
+					<key>Label</key>
+					<string></string>
 					<key>Text</key>
-					<string>[1;6C</string>
+					<string>B2CD9319-8BFA-4F92-AAF0-254CF364C2B9</string>
 				</dict>
 				<key>0xf703-0x280000</key>
 				<dict>
