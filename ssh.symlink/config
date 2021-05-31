@@ -68,6 +68,9 @@ Host EMAB
 	User root
 	IdentityFile ~/.ssh/id_rsa-emab
 
+Host bitbucket.arbetsformedlingen.se
+	Hostname bitbucket.arbetsformedlingen.se
+	IdentityFile ~/.ssh/id_ed25519-af
 
 Host *
         ServerAliveInterval 30
