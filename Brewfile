@@ -26,39 +26,42 @@ brew 'watchman'
 brew 'yarn', args: ['without-node']
 # brew 'wa'
 
-cask 'visual-studio-code'
+#cask 'visual-studio-code'
+cask 'vscodium'
 cask 'firefox-developer-edition'
-cask 'google-chrome'
+#cask 'google-chrome'
 cask 'brave-browser'
 cask 'slack'
 cask 'keyboardcleantool'
 # cask 'istat-menus'
 cask 'iterm2'
 cask 'sketch'
+cask 'figma'
 # cask 'dash'
 cask 'docker'
-cask 'the-unarchiver'
+#cask 'the-unarchiver'
 cask 'spotify'
 # cask 'rocket'
 # cask 'jetbrains-toolbox'
 cask 'spectacle'
-cask 'backblaze'
+cask 'backblaze' # Backup
 cask 'toggl'
 cask 'zeplin'
-cask 'franz'
+#cask 'franz'
+cask 'ferdi'
 cask 'keybase'
-cask 'tunnelblick'
+#cask 'tunnelblick'
 cask 'cloudup'
 # cask 'adobe-creative-cloud'
 # cask 'little-snitch'
-cask 'launchrocket'
-cask 'color-oracle'
-cask 'lastpass'
-cask 'caffeine'
-cask 'postman'
+#cask 'launchrocket'
+cask 'color-oracle' # A11Y tool
+cask 'lastpass' # Password manager
+cask 'bitwarden' # Password manager
+cask 'caffeine' # Keep Mac awake
+cask 'postman' # API testing
 cask 'authy'
-cask 'mullvadvpn'
-cask 'sequel-pro'
-cask 'megasync'
-cask 'bitwarden'
+#cask 'mullvadvpn' 
+cask 'sequel-pro' # DB management
+cask 'megasync' # Backup
 # cask 'horndis' #Android USB tethering
