@@ -53,16 +53,16 @@ cask 'ferdi'
 cask 'keybase'
 #cask 'tunnelblick'
 cask 'cloudup'
-# cask 'adobe-creative-cloud'
-# cask 'little-snitch'
+#cask 'adobe-creative-cloud'
+#cask 'little-snitch'
 #cask 'launchrocket'
 cask 'color-oracle' # A11Y tool
 cask 'lastpass' # Password manager
 cask 'bitwarden' # Password manager
 cask 'caffeine' # Keep Mac awake
 cask 'postman' # API testing
-cask 'authy'
+#cask 'authy'
 #cask 'mullvadvpn' 
 cask 'sequel-pro' # DB management
-cask 'megasync' # Backup
-# cask 'horndis' #Android USB tethering
+#cask 'megasync' # Backup
+#cask 'horndis' #Android USB tethering
