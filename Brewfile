@@ -60,8 +60,9 @@ cask 'lastpass' # Password manager
 cask 'bitwarden' # Password manager
 cask 'caffeine' # Keep Mac awake
 cask 'postman' # API testing
-cask 'authy'
-#cask 'mullvadvpn' 
+#cask 'authy'
+#cask 'mullvadvpn'
+cask 'nordvpn' # VPN
 cask 'sequel-pro' # DB management
 cask 'megasync' # Backup
 # cask 'horndis' #Android USB tethering
