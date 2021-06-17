@@ -13,7 +13,7 @@
         dl = !$ZSH/bin/git-delete-local-merged
         co = checkout
         ci = commit
-        cim = commit -m
+        cim = commit -S -m
         amend = commit --amend -C HEAD # Use the last commit message and amend your stuffs
         st = status
         br = branch
