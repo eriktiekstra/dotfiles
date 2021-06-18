@@ -11,4 +11,5 @@
 #     code --install-extension "${name}"
 # done < "extensions.txt"
 
-code --install-extension Shan.code-settings-sync
+# code --install-extension Shan.code-settings-sync
+codium --install-extension Shan.code-settings-sync

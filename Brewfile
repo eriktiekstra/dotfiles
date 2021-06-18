@@ -1,7 +1,9 @@
 cask_args appdir: '/Applications'
 
-tap homebrew/cask-versions
+tap 'homebrew/bundle'
+tap 'homebrew/cask-versions'
 #tap 'homebrew/cask-fonts'
+#tap 'puma/puma'
 #tap 'weahead/tools'
 
 brew 'ack'
@@ -19,6 +21,7 @@ brew 'openssl'
 brew 'wget'
 #brew 'elixir'
 brew 'git-flow-avh'
+brew 'ddgr' # DDG Search from terminal
 #brew 'watchman'
 #brew 'wa'
 
