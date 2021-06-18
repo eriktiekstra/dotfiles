@@ -21,6 +21,7 @@ brew 'wget'
 # brew 'youtube-dl'
 # brew 'elixir'
 brew 'git-flow-avh'
+brew 'ddgr' # DDG Search from terminal
 # brew 'watchman'
 #brew 'yarn', args: ['without-node']
 # brew 'wa'
