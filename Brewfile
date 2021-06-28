@@ -66,3 +66,4 @@ cask 'postman' # API testing
 cask 'sequel-pro' # DB management
 #cask 'megasync' # Backup
 #cask 'horndis' #Android USB tethering
+cask 'signal'
